@@ -15,7 +15,7 @@ const game = ()=>{
     }
     //Play match
     const playMatch = ()=>{
-        const options = document.querySelectorAll('.options button');
+        const options = document.querySelectorAll(`.options button`);
         const playerHand = document.querySelector(`.player-hand`)
         const computerHand = document.querySelector(`.computer-hand`)
         const hands = document.querySelectorAll(`.hands img`);
@@ -47,8 +47,8 @@ const game = ()=>{
                 computerHand.src=`assets/rock.png`
 
                 //animation
-                playerHand.style.animation = "shakePlayer 2s ease";
-                computerHand.style.animation = "shakeComputer 2s ease";
+                playerHand.style.animation = `shakePlayer 2s ease`;
+                computerHand.style.animation = `shakeComputer 2s ease`;
             })
         })
     
